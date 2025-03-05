@@ -1,1 +1,6 @@
 rootProject.name = 'flight-alert-kafka-webflux'
+
+include("flight-management-service")
+include("flightUpdateService")
+include("subscriptionService")
+include("notificationService")
