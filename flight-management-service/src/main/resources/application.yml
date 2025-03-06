@@ -3,6 +3,9 @@ server:
 spring:
   application:
     name: flight-management-service
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
   sql:
     init:
       mode: always
