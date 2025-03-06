@@ -29,9 +29,7 @@ public class KafkaAdminConfig {
     @Bean
     public KafkaAdmin.NewTopics topics() {
         return new KafkaAdmin.NewTopics(
-                TopicBuilder.name("mcsv-flight-management-service").partitions(2).replicas(2).build()
+                TopicBuilder.name("flight-creation").partitions(2).replicas(1).build()
         );
     }
-
-
 }

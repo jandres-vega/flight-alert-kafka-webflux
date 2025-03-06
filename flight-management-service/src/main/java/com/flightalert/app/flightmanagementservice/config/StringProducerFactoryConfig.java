@@ -1,4 +1,4 @@
-package com.flightalert.app.flightmanagementservice.provider;
+package com.flightalert.app.flightmanagementservice.config;
 
 import org.apache.kafka.clients.admin.AdminClientConfig;
 import org.apache.kafka.clients.producer.ProducerConfig;
